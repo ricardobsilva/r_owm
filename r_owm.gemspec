@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = 'https://github.com/ricardobsilva/r_owm'
   spec.metadata["source_code_uri"] = "https://github.com/ricardobsilva/r_owm"
@@ -30,14 +30,14 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  spec.add_dependency "rake", "~> 13.0"
-  spec.add_dependency "rspec", "~> 3.0"
-  spec.add_dependency "pry", '~> 0.13.1'
-  spec.add_dependency "rubocop", "~> 0.80"
-  spec.add_dependency 'httparty', '0.18.1'
-  spec.add_dependency 'webmock', '3.11.0'
-  spec.add_dependency 'vcr', '~> 2.9', '>= 2.9.2'
-  spec.add_dependency 'json', '~> 1'
+  spec.add_dependency "rake", ">= 13.0"
+  spec.add_dependency "rspec", ">= 3.0"
+  spec.add_dependency "pry", '>= 0.13.1'
+  spec.add_dependency "rubocop", ">= 0.80"
+  spec.add_dependency 'httparty', '>= 0.18.1'
+  spec.add_dependency 'webmock', '>= 3.0.0'
+  spec.add_dependency 'vcr', '>= 3.0'
+  spec.add_dependency 'json', '>= 1'
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
